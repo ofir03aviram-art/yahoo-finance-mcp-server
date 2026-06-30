@@ -1,0 +1,11 @@
+{
+  "name": "yahoo-finance-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "yahoo-finance-mcp --http --host 0.0.0.0 --port ${PORT:-3000} --token ${YAHOO_FINANCE_MCP_TOKEN}"
+  },
+  "dependencies": {
+    "yahoo-finance2": "latest"
+  }
+}
