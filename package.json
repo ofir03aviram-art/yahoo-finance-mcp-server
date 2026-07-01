@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "yahoo-finance-mcp --http --host 0.0.0.0 --port ${PORT:-3000} --token ${YAHOO_FINANCE_MCP_TOKEN}"
+    "start": "yahoo-finance-mcp --http --host 0.0.0.0 --port ${PORT:-3000} --unsafe-no-token"
   },
   "dependencies": {
     "yahoo-finance2": "latest"
